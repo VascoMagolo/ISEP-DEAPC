@@ -1,0 +1,1 @@
+int omaior(int a, int b);
