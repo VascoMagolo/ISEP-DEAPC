@@ -1,7 +1,7 @@
 increm:increm.o funcoes.o
 	gcc -Wall increm.o funcoes.o -o increm
 	
-funcoes.o:funcoes.c funcoes.h
+funcoes.o:funcoes.c
 	gcc -Wall -c funcoes.c -o funcoes.o
 
 increm.o:increm.c
