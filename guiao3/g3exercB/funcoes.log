@@ -1,0 +1,7 @@
+commit 009546c307672d0ac11d4f45e39cb103e1ae499f
+Author: Vasco Magolo <vascomagolo@gmail.com>
+Date:   Thu Mar 14 17:39:38 2024 +0000
+
+    Inicial commit
+
+git add -A: the tag -A in this command is to add all the files in the directory to the staging area.
