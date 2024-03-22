@@ -14,8 +14,18 @@ int main()
     }while(n<1||n>50);
 
     v=n_letras(n);
+    if (v==NULL)
+    {
+        printf("Error in memory allocation\n");
+        return 1;
+    }
     printf("%s\n",v);
     x=repete_letras(v,3);
+    if (x==NULL)
+    {
+        printf("Error in memory allocation\n");
+        return 1;
+    }
     printf("%s\n",x);
 
     free(v);

@@ -5,14 +5,13 @@
 
 int main()
 {
-
     char* word;
     word=recebe_texto();
     int count=0; char* esp;
-    
     if(word!=NULL)
     {   
         esp=strchr(word,' ');
+        
         while(esp!=NULL)
         {
             count++;
