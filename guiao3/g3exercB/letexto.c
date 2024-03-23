@@ -3,6 +3,8 @@
 #include<string.h>
 #include"funcoes.h"
 
+#define StrToken ' '
+
 int main()
 {
     char* word;
@@ -10,12 +12,12 @@ int main()
     int count=0; char* esp;
     if(word!=NULL)
     {   
-        esp=strchr(word,' ');
+        esp=strchr(word,StrToken);
         
         while(esp!=NULL)
         {
             count++;
-            esp=strchr(esp+1,' ');
+            esp=strchr(esp+1,StrToken);
         }
         printf("%s\n number of characters: %ld\n spaces: %d\n",word, strlen(word),count);
         free(word);
