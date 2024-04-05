@@ -4,6 +4,7 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]){
+
     if (argc != 2)
     {
         printf("Invalid number of arguments.\n");
@@ -11,10 +12,12 @@ int main(int argc, char *argv[]){
         return 1;
     }
     cone *v=(cone *)calloc(atoi(argv[1]),sizeof(cone));
-    for (int i = 0; i < atoi(argv[1]); i++)
-    {
-        v[i]=new_cone(i+1);
-    }
+    
+   for (int i = 0; i < atoi(argv[1]); i++)
+{
+    new_cone(v+i);
+}
+
     printf("Cones created: %d\n", atoi(argv[1]));
     for (int i = 0; i < atoi(argv[1]); i++)
     {

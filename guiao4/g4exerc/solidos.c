@@ -17,11 +17,9 @@ float volume_parallelepiped(parallelepiped s) {
     return (s.lenght * s.width * s.height);
 }
 
-cone new_cone(int n){
-    cone cone;
-    printf("Enter the height of the cone number %d: ", n);
-    scanf("%f", &cone.height);
-    printf("Enter the radius of the cone number %d: ", n);
-    scanf("%f", &cone.radius);
-    return cone;
+void new_cone(cone *c) {
+    printf("Insert the radius of the cone: ");
+    scanf("%f", &c->radius);
+    printf("Insert the height of the cone: ");
+    scanf("%f", &c->height);
 }

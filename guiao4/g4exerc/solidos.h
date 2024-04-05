@@ -25,6 +25,6 @@ float volume_cone (cone c);
 float volume_cilin (cylinder c); 
 float volume_sphere (sphere s);
 float volume_parallelepiped (parallelepiped p);
-cone new_cone(int n);
+void new_cone(cone *c);
 
 #endif
