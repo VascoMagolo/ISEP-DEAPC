@@ -1,0 +1,31 @@
+On branch master
+nothing to commit, working tree clean
+commit 5481d95b5a55eb7614e1c623aaa74e9e6db566dc
+Author: Vasco Magolo <vascomagolo@gmail.com>
+Date:   Mon Apr 15 10:27:33 2024 +0100
+
+    Acrescentadas as funções de análise estatistica
+
+commit 4d4edc2e43d02a13b3650d928b2cbbf9507e2e56
+Author: Vasco Magolo <vascomagolo@gmail.com>
+Date:   Fri Apr 12 10:18:47 2024 +0100
+
+    Acrescentadas as funções de análise da população
+
+commit 6128b80876039d2bcc91cbce447d887956f76c09
+Author: Vasco Magolo <vascomagolo@gmail.com>
+Date:   Fri Apr 12 09:02:56 2024 +0100
+
+    Acrescentadas as funções de operação nas tabelas
+
+commit 4edb0f391aa8c420cbc8fcd3d884eef9947c5953
+Author: Vasco Magolo <vascomagolo@gmail.com>
+Date:   Thu Apr 11 11:46:19 2024 +0100
+
+    Acrescentadas as funções de calculo de áreas
+
+commit fc681605c4d3d98693714ed8e63ba1c833761842
+Author: Vasco Magolo <vascomagolo@gmail.com>
+Date:   Thu Apr 11 11:31:29 2024 +0100
+
+    Concelhos de Portugal (versão inicial)
